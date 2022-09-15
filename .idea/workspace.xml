@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d78d6ad6-d092-46c9-bc68-7ae72585a8dd" name="Default Changelist" comment="hazi">
+=======
+    <list default="true" id="d78d6ad6-d092-46c9-bc68-7ae72585a8dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+>>>>>>> 570f8b5a6679c7d2edf1d20d22e012e29ade2b32
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -76,8 +81,11 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hazi" />
     <option name="LAST_COMMIT_MESSAGE" value="hazi" />
   </component>
+=======
+>>>>>>> 570f8b5a6679c7d2edf1d20d22e012e29ade2b32
 </project>

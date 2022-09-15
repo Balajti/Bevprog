@@ -1,16 +1,13 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+print("Adj meg egy szamot es egy mertekegyseget  cm/inch")
+szam = float(input())
+mertekegyseg = input()
+valtoszam = 2.54
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if mertekegyseg == "cm" or mertekegyseg == "inch":
+    if mertekegyseg == "inch":
+        print(round(szam * valtoszam, 2), " cm")
+    if mertekegyseg == "cm":
+        print(round(szam / valtoszam, 2), " inches")
+else:
+    print("Not correct unit!")

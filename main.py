@@ -9,17 +9,16 @@ betuk = list(dict.fromkeys(betuk))
 counter = 0
 numberOfWords = {}
 
-for betu in betuk:
+for x in betuk:
     for i in mondat:
-        if i == betu:
+        if i == x:
             counter += 1
-    if betu.isalpha():
-        numberOfWords[betu] = counter
+    if x.isalpha():
+        numberOfWords[x] = counter
     counter=0
 
 print("A betuk gyakorisaga: ", end=" ")
-for elem in numberOfWords:
-    print(numberOfWords)
+print(numberOfWords)
 
 print("Fordítva: ", end=" ")
 print(mondat[::-1])

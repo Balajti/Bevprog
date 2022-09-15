@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d78d6ad6-d092-46c9-bc68-7ae72585a8dd" name="Default Changelist" comment="">
+    <list default="true" id="d78d6ad6-d092-46c9-bc68-7ae72585a8dd" name="Default Changelist" comment="hazi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -55,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663255205361</updated>
     </task>
+    <task id="LOCAL-00001" summary="hazi">
+      <created>1663258751178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663258751178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hazi" />
+    <option name="LAST_COMMIT_MESSAGE" value="hazi" />
   </component>
 </project>

@@ -1,45 +1,32 @@
-print("Adj meg egy mondatot!")
-mondat = input()
-betuk = set()
+def sentenceAnalyzer(sentence):
+    letters = set()
 
-for betu in mondat:
-    betuk.add(betu)
+    for letter in sentence:
+        letters.add(letter)
 
-
-betuk = list(dict.fromkeys(betuk))
-counter = 0
-numberOfWords = {}
-
-for x in betuk:
-    for i in mondat:
-        if i == x:
-            counter += 1
-    if x.isalpha():
-        numberOfWords[x] = counter
     counter = 0
+    numberOfLetters = dict()
 
-print("A betuk gyakorisaga: ", end=" ")
-print(numberOfWords)
+    for letter in letters:
+        for i in sentence:
+            if i == letter:
+                counter += 1
+        if letter.isalpha():
+            numberOfLetters[letter] = counter
+        counter = 0
 
-counter = 0
-numberOfWords = dict()
+    print("The frequency of the letters: ", end=" ")
 
-for betu in betuk:
-    for i in mondat:
-        if i == betu:
-            counter += 1
-    if betu.isalpha():
-        numberOfWords[betu] = counter
-    counter = 0
+    print(numberOfLetters)
 
-print("A betuk gyakorisaga: ", end=" ")
+    print("In reversed: ", end=" ")
+    print(sentence[::-1])
 
-print(numberOfWords)
+    words = sentence.split(' ')
 
-print("Forditva: ", end=" ")
-print(mondat[::-1])
+    print("The words arranged in a list:", end=" ")
+    print(words)
 
-szavak = mondat.split(' ')
-
-print("A szavak listába rendezve:", end=" ")
-print(szavak)
+if __name__ == "__main__":
+    inputSentence = input("Enter a sentence! ")
+    sentenceAnalyzer(inputSentence)

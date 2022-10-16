@@ -16,7 +16,7 @@ if __name__ == "__main__":
     d3 = Developer("Peti", "kefERP", "Frontend")
     d4 = Developer("Éva", "Tech", "Frontend")
     print()
-    print(d4 == d1)
+    print(d4 == d2)
 
 
 

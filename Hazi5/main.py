@@ -7,7 +7,7 @@ class Developer:
         print(f"{self._name} a {self._job}-en dolgozik {self._position} szerepkorben")
 
     def __eq__(self, other):
-        if self._position == other._position:
+        if self._job == other._job:
             print(f"{self._name} and {other._name} are working together")
 
 if __name__ == "__main__":

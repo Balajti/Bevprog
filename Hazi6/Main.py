@@ -5,7 +5,7 @@ def isPali(str):
     osszetett = ["cs", "dz", "gy", "ly", "ny", "sz", "ty", "zs"]
     while i < len(s):
         if s[i].isalpha():
-            if i <= len(s)-1 :
+            if i != len(s)-1 :
                 if f"{s[i]}{s[i + 1]}" in osszetett:
                     s_new.append(f"{s[i]}{s[i + 1]}")
                     i += 1

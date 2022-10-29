@@ -5,13 +5,13 @@ def isPali(str):
     osszetett = ["cs", "dz", "gy", "ly", "ny", "sz", "ty", "zs"]
     while i < len(s):
         if s[i].isalpha():
-            if i != len(s)-1:
+            if i <= len(s)-1 :
                 if f"{s[i]}{s[i + 1]}" in osszetett:
                     s_new.append(f"{s[i]}{s[i + 1]}")
                     i += 1
                 else:
                     s_new.append(f"{s[i]}")
-            elif i != len(s) - 2:
+            elif i <= len(s) - 2:
                 if f"{s[i]}{s[i + 1]}{s[i + 2]}" == "dzs":
                     s_new.append(f"{s[i]}{s[i + 1]}{s[i + 2]}")
                     i += 2

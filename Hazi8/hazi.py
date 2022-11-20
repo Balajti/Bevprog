@@ -1,4 +1,4 @@
-with open("hazi.txt", encoding="utf-8") as f:
+with open("Hazi8\hazi.txt", encoding="utf-8") as f:
     with open("ki.txt", "w", encoding="utf-8") as ki:
         counter = 0
         for line in f.readlines():
